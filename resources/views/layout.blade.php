@@ -154,9 +154,9 @@
 
                 <a href="{{url('/')}}">
 
-                  <img class="logo-main" src="img/logo-main.svg" alt="Logo" />
+                  <img class="logo-main" src="img/1.png" alt="Logo" />
 
-                  <img class="logo-light" src="img/logo-main-light.svg" alt="Logo" />
+                  <img class="logo-light" src="img/1.png" alt="Logo" />
 
                 </a>
 
@@ -265,7 +265,7 @@
 
             <div class="footer-logo-area">
 
-              <a href="index.html">
+              <a href="{{url('/')}}">
 
                 <img class="logo-main" src="img/logo-main-light.svg" alt="Logo" />
 
@@ -281,17 +281,17 @@
 
             <div class="widget-item mt-sm-40">
 
-              <h4>COMPANY</h4>
+              <h4>Eko Fashion Store</h4>
 
               <nav class="widget-menu-wrap">
 
                 <ul class="nav-menu nav">
 
-                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="{{url('about')}}">About Us</a></li>
 
-                  <li><a href="index.html">Our Studio</a></li>
+                  <li><a href="{{url('shop')}}">Shop Now</a></li>
 
-                  <li><a href="Contact.html">Contact Us</a></li>
+                  <li><a href="{{url('contact')}}">Contact Us</a></li>
 
                 </ul>
 
@@ -307,13 +307,10 @@
 
                 <ul class="nav-menu nav">
 
-                  <li><a href="index.html">Help Center</a></li>
+              
+                  <li><a href="{{url('privacy')}}">Privacy Policy</a></li>
 
-                  <li><a href="index.html">Affiliate Program</a></li>
-
-                  <li><a href="index.html">Services</a></li>
-
-                  <li><a href="index.html">Terms & Conditions</a></li>
+                  <li><a href="{{url('terms')}}">Terms & Conditions</a></li>
 
                 </ul>
 
