@@ -154,9 +154,7 @@
 
                 <a href="{{url('/')}}">
 
-                  <img class="logo-main" src="img/1.png" alt="Logo" />
-
-                  <img class="logo-light" src="img/1.png" alt="Logo" />
+                  <img class="logo-main" src="img/1.png" alt="Logo" style="width: 50px; height: 50px;" />         
 
                 </a>
 
